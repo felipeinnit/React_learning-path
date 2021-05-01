@@ -1,4 +1,14 @@
 var React = require("react");
 var ReactDom = require("react-dom");
 
-ReactDom.render(<h1>First time boy.</h1>, document.getElementById("root"));
+ReactDom.render(
+  <div>
+    <h1>This is a list eg.</h1>
+    <ul>
+      <li>Item n1</li>
+      <li>Item n2</li>
+      <li>Item n3</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
